@@ -27,3 +27,9 @@ Through this task, I learned:
 - Handling simple UI interactions
 
 This repository represents the successful completion of Task 1.
+
+## Task 2 - UI Implementation
+
+In this task, I designed and implemented a Login Screen UI using XML layouts. 
+The interface includes input fields for email and password along with a login button. 
+Basic click handling is implemented using Kotlin.

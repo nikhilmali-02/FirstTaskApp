@@ -1,9 +1,11 @@
 package com.example.firsttaskapp
 
+
 import android.os.Bundle
 import android.widget.Button
-import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -11,11 +13,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val textView = findViewById<TextView>(R.id.textView)
-        val button = findViewById<Button>(R.id.button)
+        val loginButton = findViewById<Button>(R.id.loginButton)
 
-        button.setOnClickListener {
-            textView.text = "Button clicked successfully"
+        loginButton.setOnClickListener {
+            Toast.makeText(this, "Login Button Clicked", Toast.LENGTH_SHORT).show()
         }
     }
 }
